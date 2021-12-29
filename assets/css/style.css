@@ -11,7 +11,7 @@
 }
 
 body {
-  color: var(--tertiary-color); 
+  color: var(--tertiary-color);
   font-family: Helvetica, Arial, sans-serif;
   background-color: var(--primary-color);
 }
@@ -86,7 +86,7 @@ section {
 /* hero styles start */
 
 section {
-  margin: 2%3%;
+  margin: 3%;
 }
 
 .parent {
@@ -126,19 +126,21 @@ section {
 
 .child2-text p {
   line-height: 1.5;
-} 
+}
 
 /* hero styles end */
 
 /* about styles start */
 .about {
-    /* border: red solid 3px; */
-    font-size: 125%;
+  /* border: red solid 3px; */
+  font-size: 125%;
+  color: var(--secondary-color);
 }
 
 .about h2 {
   font-size: 200%;
   text-align: center;
+  border-bottom: 3px solid%;
 }
 
 .about-text {
@@ -151,41 +153,54 @@ section {
 }
 /* about styles end */
 
-
-
 /* projects styles start */
 .projects {
   border: red solid 3px;
   font-size: 125%;
+  margin-bottom: 60px;
+  background-color: var(--tertiary-color);
 }
 
 .projects h2 {
-font-size: 200%;
-text-align: center;
+  font-size: 300%;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-.projects-text {
-  line-height: 1.7;
-  padding-bottom: 15px;
+.projects-container {
+  box-sizing: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-self: center;
+  text-align: center;
 }
 
-.projects p {
-  margin-top: 3%;
+.projects h3 {
+  color: black;
+  font-size: 150%;
 }
+.projects img {
+  max-height: 300px;
+}
+
 /* projects styles end */
 
 /* contact styles start */
 .contact {
   text-align: left;
   font-size: 125%;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-shadow: 2px 2px grey;
   border: red solid 3px;
 }
 
 .contact h2 {
-font-size: 200%;
-margin-bottom: 20px;
+  font-size: 200%;
+  margin-bottom: 20px;
 }
-
 
 /* contact styles end */
 
@@ -196,119 +211,121 @@ margin-bottom: 20px;
 
 .text-right {
   text-align: right;
-} */
+}
+*/
 
-/* .flex-row {
+.flex-row {
   display: flex;
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 980px) {
-    header {
-      padding-bottom: 0;
-      justify-content: center;
-      position: sticky;
-      top: 0;
-    }
-  
-    header h1 {
-      width: 100%;
-      text-align: center;
-    }
-  
-    header nav ul {
-      margin-top: 20px;
-      width: 100%;
-      justify-content: center;
-    }
-  
-    header nav ul li a {
-       font-size: 20px;
-    }
-  
-    footer h2, footer div {
-      text-align: center;
-      width: 100%;
-    }
-  
-    .hero-cta, .hero-form {
-      width: 100%;
-    }
-    
-    .hero-cta {
-      text-align: center;
-    }
-  
-    .section-title {
-      width: 80%;
-    }
-  
-    .trainer { 
-      flex: 0 70%;
-    }
-  
-    .contact-info iframe {
-      flex: 1 100%;
-    }
+  header {
+    padding-bottom: 0;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
   }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+     font-size: 20px;
+  }
+
+  footer h2,
+  footer div {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-cta,
+  .hero-form {
+    width: 100%;
+  }
+
+  .hero-cta {
+    text-align: center;
+  }
+
+  .section-title {
+    width: 80%;
+  }
+
+  .trainer {
+    flex: 0 70%;
+  }
+
+  .contact-info iframe {
+    flex: 1 100%;
+  }
+}
 
 /* 768 BREAKPOINT */
 
 @media screen and (max-width: 768px) {
-    section {
-      padding: 30px 15px;
-    }
-  
-    .step h3 {
-      flex: 1 100%;
-      text-align: center;
-    }
-  
-    .step-info {
-      flex: 2 100%;
-      text-align: center;
-      justify-content: center;
-    }
-  
-    .step-img {
-      flex: 0 32%;
-      margin-right: 0;
-      margin-top: 15px;
-      margin-bottom: 15px;
-    }
-  
-    .step-text {
-      flex: 100%;  
-    }
+  section {
+    padding: 30px 15px;
   }
 
-@media screen and (max-width: 575px) {
-  
-    .hero-form button {
-      width: 100%;
-    }
-  
-    .section-title {
-      width: 95%;
-    }
-  
-    .intro p {
-      width: 100%;
-    }
-  
-    .trainer {
-      flex: 0 100%;
-    }
-  
-    .contact-info {
-      text-align: center;
-    }
-  
-    .contact-info > * {
-      flex: 0 100%;
-    }
-  
-    .contact-form {
-      order: 3;
-    }
+  .step h3 {
+    flex: 1 100%;
+    text-align: center;
   }
+
+  .step-info {
+    flex: 2 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .step-img {
+    flex: 0 32%;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .step-text {
+    flex: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .hero-form button {
+    width: 100%;
+  }
+
+  .section-title {
+    width: 95%;
+  }
+
+  .intro p {
+    width: 100%;
+  }
+
+  .trainer {
+    flex: 0 100%;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact-info > * {
+    flex: 0 100%;
+  }
+
+  .contact-form {
+    order: 3;
+  }
+}
