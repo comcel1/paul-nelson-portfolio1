@@ -140,7 +140,7 @@ section {
 .about h2 {
   font-size: 200%;
   text-align: center;
-  border-bottom: 3px solid%;
+  border-bottom: 3px solid;
 }
 
 .about-text {
@@ -184,6 +184,11 @@ section {
 .projects img {
   max-height: 300px;
 }
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
 
 /* projects styles end */
 
