@@ -86,7 +86,7 @@ section {
 /* hero styles start */
 
 section {
-  margin: 3%;
+  margin: 2%3%;
 }
 
 .parent {
@@ -96,7 +96,7 @@ section {
   justify-content: space-around;
   justify-self: center;
   background-color: var(--secondary-color);
-  border: blue solid 5px;
+  /* border: blue solid 5px; */
 }
 
 .child1 {
@@ -106,7 +106,8 @@ section {
 
 .child1 img {
   width: 100%;
-  border-radius: 8px var(--tertiary-color);
+  border-radius: 8px;
+  box-shadow: 6px 6px 5px darkgrey;
 }
 
 .child2 {
@@ -125,6 +126,9 @@ section {
   text-shadow: 2px 2px grey;
 }
 
+.child2-text p {
+  line-height 4;
+} 
 
 /* hero styles end */
 
