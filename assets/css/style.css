@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #faf6df;
-  --secondary-color: #10211c;
-  --tertiary-color: #616267;
+  --primary-color: #fefae0;
+  --secondary-color: #d4a373;
+  --tertiary-color: #989f81;
 }
 
 * {
@@ -53,7 +53,7 @@ header nav ul {
 
 header nav ul li a {
   padding: 10px 15px;
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -85,26 +85,46 @@ section {
 
 /* hero styles start */
 
-.hero {
-  width: 100%;
-  background-color: var(--secondary-color);
-  margin: 0 auto;
+section {
+  margin: 3%;
+}
+
+.parent {
+  box-sizing: 90%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
-  align-items: flex-start;
-  border:turquoise solid 3px;
+  justify-content: space-around;
+  justify-self: center;
+  background-color: var(--secondary-color);
+  border: blue solid 5px;
 }
 
-.hero-text {
+.child1 {
+  padding: 30px;
+  /* border: red solid 5px; */
+}
+
+.child1 img {
+  width: 100%;
+  border-radius: 8px var(--tertiary-color);
+}
+
+.child2 {
+  flex-shrink: 1;
+  padding: 30px;
+  margin-top: 60px;
+  font-size: 200%;
   color: var(--primary-color);
-  width: 50%;   
-  align: right;
+  text-shadow: 2px 2px grey;
+  /* border: red solid 5px; */
 }
 
-.hero img {
-  width: 30%;
+.child2-text h2 {
+  font-size: 200%;
+  line-height: 2;
+  text-shadow: 2px 2px grey;
 }
+
 
 /* hero styles end */
 
@@ -138,14 +158,14 @@ section {
 
 .text-right {
   text-align: right;
-}
+} */
 
-.flex-row {
+/* .flex-row {
   display: flex;
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-/* @media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
     header {
       padding-bottom: 0;
       justify-content: center;
@@ -192,11 +212,11 @@ section {
     .contact-info iframe {
       flex: 1 100%;
     }
-  } */
+  }
 
 /* 768 BREAKPOINT */
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     section {
       padding: 30px 15px;
     }
@@ -222,9 +242,9 @@ section {
     .step-text {
       flex: 100%;  
     }
-  } */
+  }
 
-/* @media screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
   
     .hero-form button {
       width: 100%;
@@ -253,4 +273,4 @@ section {
     .contact-form {
       order: 3;
     }
-  } */
+  }
