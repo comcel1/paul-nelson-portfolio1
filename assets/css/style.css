@@ -132,7 +132,7 @@ section {
 
 /* about styles start */
 .about {
-    border: red solid 3px;
+    /* border: red solid 3px; */
     font-size: 125%;
 }
 
@@ -174,11 +174,9 @@ text-align: center;
 }
 /* projects styles end */
 
-
-
 /* contact styles start */
 .contact {
-  text-align: center;
+  text-align: left;
   font-size: 125%;
   border: red solid 3px;
 }
@@ -188,14 +186,8 @@ font-size: 200%;
 margin-bottom: 20px;
 }
 
-.contact-info {
-display: inline-block;
-text-align: left;
-}
+
 /* contact styles end */
-
-
-
 
 /* UTILITIES */
 .text-left {
