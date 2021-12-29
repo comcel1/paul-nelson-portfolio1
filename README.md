@@ -11,12 +11,12 @@ Bootcamp challenge #2: My First Portfolio
 * CSS
 
 ## Website:
-hosted: <!-- https://comcel1.github.io/horiseon-refactor-project/ > </br>
-github: <!-- https://github.com/comcel1/horiseon-refactor-project >
+hosted: https://comcel1.github.io/paul-nelson-portfolio1/ </br>
+github: https://github.com/comcel1/paul-nelson-portfolio1
 
 ## Screenshot
-![screenshot] <!-- (https://user-images.githubusercontent.com/90969624/146689938-d00a2c11-82df-434b-aadf-a315f94cd998.png) >
+![paul-nelson-portfolio1 screenshot](https://user-images.githubusercontent.com/90969624/147707440-ac2f073f-6f10-4c5d-9257-1e68de4b6687.png)
 
 ## Contribution
 Submitted by Paul Nelson </br>
-<!--December 26, 2021 >
+December 29, 2021
