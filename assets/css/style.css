@@ -1,7 +1,7 @@
 :root {
   --primary-color: #fefae0;
   --secondary-color: #d4a373;
-  --tertiary-color: #989f81;
+  --tertiary-color: #6e745c;
 }
 
 * {
@@ -11,7 +11,7 @@
 }
 
 body {
-  color: var(--tertiary-color);
+  color: var(--tertiary-color); 
   font-family: Helvetica, Arial, sans-serif;
   background-color: var(--primary-color);
 }
@@ -100,7 +100,7 @@ section {
 }
 
 .child1 {
-  padding: 30px;
+  padding: 10px;
   /* border: red solid 5px; */
 }
 
@@ -112,7 +112,7 @@ section {
 
 .child2 {
   flex-shrink: 1;
-  padding: 30px;
+  padding: 10px;
   margin-top: 60px;
   font-size: 200%;
   color: var(--primary-color);
@@ -121,35 +121,77 @@ section {
 }
 
 .child2-text h2 {
-  font-size: 200%;
   line-height: 2;
-  text-shadow: 2px 2px grey;
 }
 
 .child2-text p {
-  line-height 4;
+  line-height: 1.5;
 } 
 
 /* hero styles end */
 
 /* about styles start */
 .about {
-    border: red solid 3px;a
+    border: red solid 3px;
+    font-size: 125%;
 }
+
+.about h2 {
+  font-size: 200%;
+  text-align: center;
+}
+
 .about-text {
-    line-height: 1.7;
-    padding-bottom: 15px;
+  line-height: 1.7;
+  padding-bottom: 15px;
+}
+
+.about p {
+  margin-top: 3%;
 }
 /* about styles end */
 
 
 
 /* projects styles start */
+.projects {
+  border: red solid 3px;
+  font-size: 125%;
+}
+
+.projects h2 {
+font-size: 200%;
+text-align: center;
+}
+
+.projects-text {
+  line-height: 1.7;
+  padding-bottom: 15px;
+}
+
+.projects p {
+  margin-top: 3%;
+}
 /* projects styles end */
 
 
 
 /* contact styles start */
+.contact {
+  text-align: center;
+  font-size: 125%;
+  border: red solid 3px;
+}
+
+.contact h2 {
+font-size: 200%;
+margin-bottom: 20px;
+}
+
+.contact-info {
+display: inline-block;
+text-align: left;
+}
 /* contact styles end */
 
 
