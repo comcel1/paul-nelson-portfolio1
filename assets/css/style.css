@@ -23,7 +23,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  z-index: 9999;    
+  z-index: 9999;
 }
 
 header h1 {
@@ -84,7 +84,6 @@ section {
 }
 
 /* hero styles start */
-
 section {
   margin: 3%;
 }
@@ -96,13 +95,11 @@ section {
   justify-content: space-around;
   justify-self: center;
   background-color: var(--secondary-color);
-  /* border: blue solid 5px; */
-}
+  }
 
 .child1 {
   padding: 10px;
-  /* border: red solid 5px; */
-}
+  }
 
 .child1 img {
   width: 100%;
@@ -117,7 +114,6 @@ section {
   font-size: 200%;
   color: var(--primary-color);
   text-shadow: 2px 2px grey;
-  /* border: red solid 5px; */
 }
 
 .child2-text h2 {
@@ -132,8 +128,7 @@ section {
 
 /* about styles start */
 .about {
-  /* border: red solid 3px; */
-  font-size: 125%;
+  font-size: 135%;
   color: var(--secondary-color);
 }
 
@@ -155,7 +150,6 @@ section {
 
 /* projects styles start */
 .projects {
-  border: red solid 3px;
   font-size: 125%;
   margin-bottom: 60px;
   background-color: var(--tertiary-color);
@@ -163,7 +157,8 @@ section {
 
 .projects h2 {
   font-size: 300%;
-  color: black;
+  color: var(--primary-color);
+  text-shadow: 2px 2px black;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -178,17 +173,32 @@ section {
 }
 
 .projects h3 {
-  color: black;
+  color: var(--primary-color);
+  text-shadow: 2px 2px black;
+  margin-bottom: 10px;
   font-size: 150%;
 }
+
 .projects img {
   max-height: 300px;
 }
 
-.zoom:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
+.project1 {
+  padding: 50px;
+}
+.project2 {
+  padding: 50px;
+}
+.project3 {
+  padding: 50px;
+}
+.project4 {
+  padding: 50px;
+}
 
+.zoom:hover {
+  transform: scale(1.35); 
+}
 
 /* projects styles end */
 
@@ -199,7 +209,6 @@ section {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   text-shadow: 2px 2px grey;
-  border: red solid 3px;
 }
 
 .contact h2 {
@@ -217,7 +226,6 @@ section {
 .text-right {
   text-align: right;
 }
-*/
 
 .flex-row {
   display: flex;
@@ -244,7 +252,7 @@ section {
   }
 
   header nav ul li a {
-     font-size: 20px;
+    font-size: 20px;
   }
 
   footer h2,
